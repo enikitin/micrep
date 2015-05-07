@@ -1,0 +1,4 @@
+# git ignore file
+image/Thumbs.db
+*.sln
+*.suo
