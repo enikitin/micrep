@@ -5,7 +5,7 @@
             'use strict';
 
             function currentLanguage() {
-                return $location.path().split('/')[1];
+                return $location.path().split('/')[1] || 'en';
             }
 
             $scope.menuClass = function (page) {
@@ -15,7 +15,6 @@
 
             $scope.changeLanguage = function () {
                 var language = currentLanguage() === 'en' ? 'ru' : 'en';
-                //$window.location = '/' + language;
                 $location.path('/' + language);
             };
 
