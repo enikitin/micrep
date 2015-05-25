@@ -5,7 +5,7 @@
             'use strict';
 
             function isRussian() {
-                return $location.path().startsWith('/ru');
+                return $location.path().substr(0, 3) === '/ru';
             }
 
             $scope.menuClass = function (page) {
