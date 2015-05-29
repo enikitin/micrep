@@ -16,7 +16,7 @@
 
             $scope.menuUrl = function () {
                 var infix = isRussian() ? 'ru/' : '';
-                return '/include/' + infix + 'topmenu.html';
+                return '/html/' + infix + 'topmenu.html';
             };
         }
     ]);
