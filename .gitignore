@@ -3,4 +3,4 @@ images/Thumbs.db
 *.sln
 *.suo
 *.DotSettings
-
+node_modules
