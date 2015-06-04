@@ -4,3 +4,4 @@ images/Thumbs.db
 *.suo
 *.DotSettings
 node_modules
+snapshots

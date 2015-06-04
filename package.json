@@ -1,17 +1,18 @@
 {
-    "name": "micrep",
-    "version": "0.1.0",
-    "private": true,
-    "author": "Evgeny Nikitin",
-    "description": "micrep web site",
-    "dependencies": { },
-    "analyze": false,
-    "devDependencies": {
-        "grunt-cli": "^0.1.13",
-        "grunt-html-snapshot": "^0.6.1"
-    },
-    "license": "MIT",
-    "engines": {
-        "node": ">=0.6"
-    }
+  "name": "micrep",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Evgeny Nikitin",
+  "description": "micrep web site",
+  "dependencies": {},
+  "analyze": false,
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-html-snapshot": "^0.6.1"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.6"
+  }
 }
