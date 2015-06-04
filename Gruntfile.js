@@ -1,6 +1,7 @@
 ﻿module.exports = function(grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
+        clean: ['snapshots'],
         htmlSnapshot: {
             debug: {
                 options: {
@@ -8,8 +9,8 @@
                     sitePath: 'http://localhost:777/',
                     msWaitForPages: 1000,
                     urls: [
-                        '/',
-                        '/partners'
+                        '#!/',
+                        '#!/partners'
                     ]
                 }
             },
@@ -19,7 +20,8 @@
         }
     });
 
+    grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-html-snapshot');
 
-    grunt.registerTask('default', ['htmlSnapshot']);
+    grunt.registerTask('default', ['clean', 'htmlSnapshot']);
 }
