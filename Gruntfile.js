@@ -3,19 +3,18 @@
         pkg: grunt.file.readJSON('package.json'),
         clean: ['snapshots'],
         htmlSnapshot: {
-            debug: {
+            all: {
                 options: {
                     snapshotPath: 'snapshots/',
-                    sitePath: 'http://localhost:777/',
+                    sitePath: 'http://localhost:777/#!/',
+                    fileNamePrefix: '',
                     msWaitForPages: 1000,
                     urls: [
-                        '#!/',
-                        '#!/partners'
+                        '',
+                        'partners',
+                        'contact'
                     ]
                 }
-            },
-            prod: {
-                options: {}
             }
         }
     });
