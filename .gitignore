@@ -5,3 +5,4 @@ images/Thumbs.db
 *.DotSettings
 node_modules
 snapshots
+/.vs/config/applicationhost.config
