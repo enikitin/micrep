@@ -97,7 +97,7 @@ body {
     width: 900px;
     float: left;
     padding: 5px 5px 5px 0;
-    height: 600px;
+    height: 700px;
 }
 
     #mainpage p {
@@ -163,7 +163,9 @@ h1, h2, h3, h4, h5 {
     border-bottom: dashed 1px #D6E4A7;
 }
 
-
+#partners {
+    width: 910px;
+}
 
 /*footer*/
 #footer {
